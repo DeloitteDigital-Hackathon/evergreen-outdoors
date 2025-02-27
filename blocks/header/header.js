@@ -108,6 +108,13 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
  * @param {Element} block The header block element
  */
 export default async function decorate(block) {
+
+  //AEP script
+  const adobeScript = document.createElement("script");
+  adobeScript.src =
+    "https://assets.adobedtm.com/d9fe0ea961b4/44bc6db33794/launch-119e12ceab8f-development.min.js%22></script>";
+  document.querySelector("head").append(adobeScript);
+  
   // load nav as fragment
   const navMeta = getMetadata('nav');
   const navPath = navMeta ? new URL(navMeta, window.location).pathname : '/nav';
