@@ -14,6 +14,10 @@ footer .footer p {
   margin: 0;
 }
 
+footer .columns-2-cols > div {
+    align-items: flex-start;
+}
+
 @media (width >= 900px) {
   footer .footer > div {
     padding: 40px 32px 24px;
