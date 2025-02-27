@@ -22,6 +22,8 @@
     --text-color: #000;
     --link-color: #3b63fb;
     --link-hover-color: #1d3ecf;
+    --button-background-color: #30453A;
+    --button-text-color: #A6ECE0;
 
     /* fonts */
     --body-font-family: "Lato", serif;
@@ -197,8 +199,8 @@ button {
     line-height: 1.25;
     text-align: center;
     text-decoration: none;
-    background-color: var(--link-color);
-    color: var(--background-color);
+    background-color: var(--button-background-color);
+    color: var(--button-text-color);
     cursor: pointer;
     overflow: hidden;
     text-overflow: ellipsis;
