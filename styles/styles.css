@@ -15,10 +15,10 @@
 :root {
     /* colors */
     --background-color: #fff;
-    --nav-background-color: #A6ECE0;
+    --nav-background-color: #30453A;
     --light-color: #f8f8f8;
     --dark-color: #505050;
-    --text-color: #131313;
+    --text-color: #000;
     --link-color: #3b63fb;
     --link-hover-color: #1d3ecf;
 
