@@ -23,5 +23,7 @@ export default function decorate(block) {
   block.append(ul);
 
   const buttons = ul.querySelectorAll('.button');
-  console.log(buttons);
+  buttons.forEach((button) => {
+    button.href="https://main--evergreen-outdoors-dbe--deloittedigital-hackathon.aem.page/pdp1";
+  }
 }
