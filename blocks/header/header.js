@@ -112,7 +112,7 @@ export default async function decorate(block) {
   //AEP script
   const adobeScript = document.createElement("script");
   adobeScript.src =
-    "https://assets.adobedtm.com/d9fe0ea961b4/44bc6db33794/launch-119e12ceab8f-development.min.js%22></script>";
+    "https://assets.adobedtm.com/d9fe0ea961b4/44bc6db33794/launch-119e12ceab8f-development.min.js";
   document.querySelector("head").append(adobeScript);
   
   // load nav as fragment
